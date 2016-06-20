@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.krishnaraj.collegeapp.AcademicsActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSE"
+        android:textSize="20dp"
+        android:id="@+id/acb"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_buttonss"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/acb1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT"
+        android:textSize="20dp"
+        android:id="@+id/acb1"
+        android:background="@drawable/attractivebuttons"
+        android:layout_below="@+id/acb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ECE"
+        android:background="@drawable/buttons"
+        android:textSize="20dp"
+        android:id="@+id/acb11"
+        android:layout_below="@+id/acb1"
+        android:layout_alignStart="@+id/acb1"
+        android:layout_marginTop="54dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EEE"
+        android:textSize="20dp"
+        android:id="@+id/acb111"
+        android:background="@drawable/attractivebuttons"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/acb11"
+        android:layout_alignStart="@+id/acb11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MCA"
+        android:background="@drawable/buttons"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/acb111" />
+    </RelativeLayout>

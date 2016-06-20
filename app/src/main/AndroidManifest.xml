@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.krishnaraj.collegeapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vcas"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StudentActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".FeesActivity" />
+        <activity android:name=".CourseActivity" />
+        <activity android:name=".LibraryActivity" />
+        <activity android:name=".PlacementActivity" />
+        <activity android:name=".StudentloginActivity" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".StudentLogin" />
+        <activity android:name=".GovernmentActivity" />
+        <activity android:name=".ManagementActivity" />
+        <activity android:name=".AlumniActivity" />
+        <activity android:name=".AlumnidetailsActivity" />
+        <activity android:name=".CollegeHostelActivity" />
+        <activity android:name=".HostelActivity" />
+        <activity android:name=".ExtracurricularActivity" />
+        <activity android:name=".IbmActivity" />
+        <activity android:name=".Ibm1Activity" />
+        <activity android:name=".Ibm2Activity" />
+        <activity android:name=".UpseActivity" />
+        <activity android:name=".OracleActivity" />
+        <activity android:name=".IbpsActivity" />
+        <activity android:name=".AcademicsActivity" />
+        <activity android:name=".CircularActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/custom_course"
+    tools:context="com.example.krishnaraj.collegeapp.HostelActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fees Structure for Government Quota..."
+        android:textSize="20dp"
+        android:fontFamily="times new roman"
+        android:textColor="#FF5722"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvv"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:fontFamily="times new roman"
+        android:text="Hostel fees -->> Tution fees  = ₹ 30,000 -->> Types of Rooms -->> Ordinary -->> ₹12,000 -->> Deluxe -->> ₹20,000 -->> Deluxe Special -->> ₹ 35,000 \n\nMess Fees -->> ₹9000"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

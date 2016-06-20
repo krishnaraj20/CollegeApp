@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+
+            android:title="Student details (Admin Panel)" />
+        <item
+            android:id="@+id/nav_cameras"
+            android:title="Student details (Student's portal)"/>
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="Fees details" />
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="Course details" />
+        <item
+            android:id="@+id/nav_manage"
+
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_manages"
+
+            android:title="Library" />
+        <item
+            android:id="@+id/nav_share"
+
+            android:title="Placement details" />
+        <item
+            android:id="@+id/nav_alumini"
+
+            android:title="Alumni details"/>
+        <item
+            android:id="@+id/nav_circular"
+
+            android:title="Circulars"/>
+
+    </group>
+
+   
+
+</menu>

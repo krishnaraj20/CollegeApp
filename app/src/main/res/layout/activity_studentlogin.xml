@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.krishnaraj.collegeapp.StudentloginActivity">
+
+    <TextView
+        android:text="College Database Management"
+        android:fontFamily="times new roman"
+        android:id="@+id/textView"
+        android:textColor="#F90813"
+        android:textSize="20dp"
+        android:layout_x="15dp"
+        android:layout_y="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Roll_no"
+        android:fontFamily="times new roman"
+        android:textColor="#A3058B"
+        android:textSize="20dp"
+        android:layout_x="34dp"
+        android:layout_y="66dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editRollno"
+        android:inputType="text"
+        android:layout_x="142dp"
+        android:layout_y="53dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:text="Name"
+        android:textColor="#A3058B"
+        android:textSize="20dp"
+        android:fontFamily="times new roman"
+        android:layout_x="33dp"
+        android:layout_y="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editName"
+        android:inputType="text"
+        android:layout_x="142dp"
+        android:layout_y="86dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:text="Phone no "
+        android:textSize="20dp"
+        android:textColor="#A3058B"
+        android:fontFamily="times new roman"
+        android:layout_x="33dp"
+        android:layout_y="135dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editPhone"
+        android:inputType="number"
+        android:layout_x="142dp"
+        android:layout_y="120dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:text="Address"
+        android:textSize="20dp"
+        android:textColor="#A3058B"
+        android:inputType="textPostalAddress"
+        android:fontFamily="times new roman"
+        android:layout_x="36dp"
+        android:layout_y="172dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/editAddress"
+        android:inputType="text"
+        android:layout_x="142dp"
+        android:layout_y="155dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:text="DOB"
+        android:textSize="20dp"
+        android:textColor="#A3058B"
+        android:inputType="textPostalAddress"
+        android:fontFamily="times new roman"
+        android:layout_x="36dp"
+        android:layout_y="209dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/editDOB"
+        android:inputType="text"
+        android:layout_x="142dp"
+        android:layout_y="195dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:text="Gender"
+        android:textSize="20dp"
+        android:textColor="#A3058B"
+        android:inputType="textPostalAddress"
+        android:fontFamily="times new roman"
+        android:layout_x="36dp"
+        android:layout_y="242dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/editGender"
+        android:inputType="text"
+        android:layout_x="142dp"
+        android:layout_y="230dp"
+        android:layout_width="160dp"
+        android:layout_height="40dp"/>
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:text="Add"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:layout_x="59dp"
+        android:layout_y="325dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        />
+    <Button
+        android:id="@+id/btnModify"
+        android:text="Modify"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_x="63dp"
+        android:layout_y="404dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        />
+    <Button
+        android:id="@+id/btnView"
+        android:text="View"
+        android:backgroundTint="@android:color/holo_purple"
+        android:layout_x="217dp"
+        android:layout_y="328dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        />
+
+    <Button
+        android:id="@+id/btnShowInfo"
+        android:text="Show Info"
+        android:backgroundTint="@android:color/holo_blue_bright"
+        android:layout_x="223dp"
+        android:layout_y="401dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        />
+</AbsoluteLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/custom_alumni"
+    tools:context="com.example.krishnaraj.collegeapp.AlumnidetailsActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Number of Passed out Students in 2015 Batch... \n\n                  More than of 1000 students was passed out... \n\n                  Out of that 900 Students got placed in MNC's..."
+    android:textSize="20dp"
+    android:fontFamily="times new roman"
+    android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/altv"
+        android:textStyle="bold"
+        android:text="Name : S.Harsitha \nCompany : CTS \nJob designation : Junior ProjectManager \nSalary : ₹4 lakhs"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/altv1"
+        android:textStyle="bold"
+        android:text="Name : M.Rubashree \nCompany : TCS \nJob designation : ProjectManager \nSalary : ₹4 lakhs"
+        android:layout_below="@+id/altv"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="56dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achievements to be Continued..."
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
